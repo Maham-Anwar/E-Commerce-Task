@@ -1,0 +1,279 @@
+
+*{  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.header{
+  background-color: #316dc3;
+  display: flex;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.icons{
+  width: 50px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  }
+
+li.nav-item {
+    
+    font-weight: bold;
+   
+}
+  
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    margin-left: 2px ;
+  
+  
+}
+.nav-link:hover {
+  background-color:#316dc3;
+  color: white;
+  border-radius: 20px;
+  padding: 7px;
+  
+}
+ /* .nav-link a:hover {
+    
+    color: cyan;
+  } */
+  .active {
+  
+    color:black;
+  }
+
+.navbar-nav{
+    margin-right: 5%;
+   
+}
+ 
+.navbar-light .navbar-nav .nav-link:hover {
+   
+    
+    color: black;
+  }
+.navbar-brand{
+  font-weight: bold;
+}
+.fas .fa-tshirt{
+  font-size: 50px !important;
+}
+.fas .fa-user-circle{
+  width: 100%;
+}
+
+
+
+.fa-user-circle{
+  margin: 5px;
+}
+/* footer */
+ #first_row1 >li
+{
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.social-icons{
+   
+  padding-left:100px
+}
+/* index.html */
+.dropdown-menu :hover{
+  background-color:#2196F3;
+}
+.fa-plane,.fa-tshirt,.fa-headphones{
+  font-size: 50px !important;
+  margin-right: 10px;
+}
+.card1ForDiv,.card2ForDiv,.card3ForDiv{
+  padding-top:2px;
+  display: flex;
+  width: 300px;
+  height:60px;
+  background-color: #fff;
+  box-shadow: 2px 4px 5px grey; 
+  justify-content: center;
+  color: #2196F3;
+  margin-top: 10px;
+}
+
+.divForCard{
+  margin-top: 30px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+}
+.mainCard >h3{
+  color: #2196F3;
+}
+
+.shop,.shop1{
+  margin-top: 50px;
+}
+.card{
+  width: 250px;
+  height:auto !important;
+  margin-top:10px;
+  text-align: center;
+}
+.card-text{
+  font-weight:bold;
+}
+.addtoCart > .btn-primary{
+  width: 100%;
+  background-color: #2196F3;
+}
+
+.shopnow> h1{
+  text-align: center;
+  font-weight: bold;
+  color: #2196F3;
+  margin: 20px;
+}
+.shopnow1 > h1{
+  text-align: center;
+  font-weight: bold;
+  color: #2196F3;
+  margin: 20px;
+}
+
+.shop > .container > .col-sm-12 ,.col-md-6,.col-lg-3{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+}
+.shop1 > .container > .col-sm-12 ,.col-md-6,.col-lg-3{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+}
+
+.card-img-top{
+  width: 248px;
+  height: 248px;
+}
+
+ul.list-unstyled1 >li{
+  display: inline;
+  list-style: none;
+
+}
+#links{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.page-footer{
+  color: white;
+  background-color: #2196F3;
+  margin-top: 10px;
+}
+ul.list-unstyled a{
+  color: white;
+}
+#footerWeb{
+  color: white;
+}
+
+.footer-copyright , .footerWeb{
+  font-size: 20px;
+}
+
+/* About Us*/
+.aboutUs > .container > .row >.col-sm-6{
+padding-top: 100px;
+}
+.image1 {
+ width: 700px;
+ width: 500px;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+.image1:hover {
+  height:800px;
+  width: 600px;
+}
+
+.aboutUs > .container > .row >.col-sm-6 > h3 {
+  font-weight: bold;
+  color: #2196F3;
+  text-decoration:#2196F3 underline;
+}
+.MeetTeam1  .img1{
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+ 
+  border-radius: 50%;
+}
+.MeetTeam1 h3{
+  font-weight: bold;
+  color: #2196F3;
+}
+.MeetTeam1 {
+  margin-top: 10px;
+  text-align: center;
+}
+  
+
+ #input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contactF > h1{
+  
+  font-weight: bold;
+  color: #0000A0 ;
+  text-decoration:#2196F3 underline;
+}
+
+.contactF > p{
+  text-align: center;
+  font-weight: bold;
+  color: #2196F3;
+}
+
+/* Men Shop */
+.menShop {
+  padding-bottom: 10px;
+}
+.mensW > h3{
+  
+  font-weight: bold;
+  color: #0000A0 ;
+  text-decoration:#2196F3 underline;
+}
+
+#mensW > p{
+  text-align: center;
+  font-weight: bold;
+  color: #2196F3;
+}
+#mensW > h3{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #2196F3;
+}
+.menShop > .menShop1 > h1{
+  text-align: center;
+  font-weight: bold;
+  color: #2196F3 ;
+  text-decoration:#2196F3 underline;
+}
